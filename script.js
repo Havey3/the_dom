@@ -33,7 +33,7 @@ var movieSchedule = [
 
   var htmlString0 = `
     <h2>${movieSchedule[0].title}</h2>
-    <p>${movieSchedule[1].rating}</p>
+    <p>${movieSchedule[0].rating}</p>
     <img class = "poster" src=${movieSchedule[0].poster} alt="movie_poster"/>`
 
   var htmlString1 =`
